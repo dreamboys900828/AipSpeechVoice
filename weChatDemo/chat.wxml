@@ -1,0 +1,9 @@
+<view class="sendYyMessage">
+    <view class="jp-btn" bindtap="showTextBtn">
+        <image src="https://aicp.jkbk.cn/assets/img/yjl/images/jp_btn.png"></image>
+    </view>
+
+    <view class="wenwen_text">
+        <view class="circle-button" bind:touchstart="startHandel" bind:touchend="endHandel">按下录音 松开结束</view>
+    </view>
+</view>
