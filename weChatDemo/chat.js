@@ -23,7 +23,7 @@ Page({
         // var reply = {};
         // reply = {
         //     type: 1,
-        //     src: "https://aicp.jkbk.cn/assets/img/yjl/images/profle.jpg",
+        //     src: "https://xxxx.xxxx.cn/assets/img/yjl/images/profle.jpg",
         //     state: 0,
         //     content: "开始"
         // };
@@ -38,7 +38,7 @@ Page({
         // var reply = {};
         // reply = {
         //     type: 1,
-        //     src: "https://aicp.jkbk.cn/assets/img/yjl/images/profle.jpg",
+        //     src: "https://xxxx.xxxx.cn/assets/img/yjl/images/profle.jpg",
         //     state: 0,
         //     content: "结束"
         // };
@@ -50,7 +50,7 @@ Page({
     sendRecord: function (tempFilePath) {
         var that = this;
         var obj = {
-            url: "https://aicp.jkbk.cn/api/speechvoice/wxupload",
+            url: "https://xxxx.xxxx.cn/api/speechvoice/wxupload",
             filePath: tempFilePath,
             name: "voice",
             header: {
